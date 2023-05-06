@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import './models/category.dart';
 import './models/meal.dart';
 
+var x = 2;
+
 List DUMMY_CATEGORIES = [
   Category(
     id: 'c1',
