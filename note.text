@@ -1,0 +1,78 @@
+note for this app
+
+
+
+			***************most important knowladge (if you have any varible in your app for spacific mission and in another file you need declare varible for the same thing make the varible name in first file look like the name in the second file)
+
+
+
+
+* if you need to make more one directory or folder type all of name and , between the name and another name
+
+* in folder models used for make classes 
+
+(
+    every screen make in the screen folder
+)
+
+(
+    in slivergriddelegatewithmaxcrossaxisextent -- this is for make the item destrpution like in this app 
+    but SliverGridDelegateWithFixedCrossAxisCount -- this destrpution item in the top and horzentil
+)
+
+(
+    this is way for write an text Theme
+    textTheme: ThemeData.light().textTheme.copyWith(
+        your Data write here
+          )
+)
+
+(
+    routes for define name for all page in your project this will write in main and material app only
+    for name make static varible in classes and import this varible
+    and used pushNamed in navigator
+)
+
+(
+    for unzip arguments in navigator used this line in the next screen (هتعمل في اسكرين علي اسكرين تايه التانيه دي بقي هيا اللي هيتفك فيها الضغط)
+    varible = ModalRoute.of(context).settings as Map<the type of arguments one , the type of arguments two>
+
+)
+
+
+(
+
+	like you have an map you can use and after this you can use list you can use where 
+
+
+)
+
+
+
+(
+	clipRRect this is used for make an border radias for image 
+)
+
+
+(
+	Note : every widget you declear in widget foler for show in screen files you aleardy declare it in screen files
+
+)
+
+(
+
+	the data in file(mealItem in widget folder) i resived this data from (
+
+)
+
+* the drawer is the side box element (eli bttsa7b mn elgamb w tgiblak list)
+
+
+
+						فكره بعت البيانات من صقحه ل التانيه انت بتعمل بوش من تلصفحه اللي انت واقف فيها وبتبعت ادي دا عشان تدور في الداتا اللي جاتلك وبتستقبله في الصفحه اللي هتروحلها في الكود
+
+
+Expanded widget take all space empty of the column
+
+
+					categories_meal_screen فكره شرط الفلتر انت هتعمل لست وماب وداله في المين وبعدين هتباصي في كونستراكتور الفلتر الفنكشن ودي هتيقي بتستقبل اوبجيكت نوعه نفس نوع الماب عشا كدا هيتباصي للماب والليست هتبقي عشان يتحط فيها الداتا كلها ويتعملها فلت في
